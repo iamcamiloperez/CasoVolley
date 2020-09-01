@@ -9,18 +9,18 @@ CREATE TABLE Factura2
     referencia String NOT NULL
 );
 
-CREATE TABLE Carta
-(
-    fecha String NOT NULL,
-    contenido String NOT NULL,
-    numeroCorreo Integer NOT NULL
-);
-
 CREATE TABLE Factura
 (
     valor Integer NOT NULL,
     estado Integer NOT NULL,
     referencia String NOT NULL
+);
+
+CREATE TABLE Carta
+(
+    fecha String NOT NULL,
+    contenido String NOT NULL,
+    numeroCorreo Integer NOT NULL
 );
 
 CREATE TABLE Libro
